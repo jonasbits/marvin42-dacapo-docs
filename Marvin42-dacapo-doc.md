@@ -32,7 +32,7 @@ Dokumentation repo med export av detta Google Docs https://github.com/jonasbits/
  
 Presentation 
  
-https://docs.google.com/presentation/d/1beX7hva5HjMFXKNHn2rgH45J-gQc98lq1z0H9HMi B3w/edit#slide=id.p 
+https://docs.google.com/presentation/d/1beX7hva5HjMFXKNHn2rgH45J-gQc98lq1z0H9HMiB3w/edit#slide=id.p 
  
 Stämningsfull musik till presentationen. Chamillionaire - The Sound Of Revenge Ridin’ 
  
