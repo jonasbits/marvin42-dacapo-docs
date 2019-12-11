@@ -4,16 +4,24 @@ Teknisk dokumentation Den tekniska dokumentationen används för vidareutveckling 
     Produkterna försörjs med ström via 3.7V batterier i seriell koppling.<br>
 <br>
 2. tekniska kapabiliteter: <br>
-    nät: WiFi, IP, Bluetooth med version, nivå, pbs, frekvensband, maxavstånd. <br>
+    nät: Bluetooth med version, nivå, pbs, frekvensband, maxavstånd. <br>
     kapacitet: MCU:er klockfrekvenser och minneskapaciteter i byte <br>
     <br>
 3. ingående komponenter, namn, bibliotek <br>
+    raspberry pi zero.<br>
+    arduino mega.<br>
+    arduino mini pro.<br>
+    blueSMIRF.<br>
+    motorer?.<br>
+    joystick.<br>
+    rotaryencoder.<br>
 <br>
 4. karta över hur komponenterna kopplats ihop <br>
-a. handritad (lättast), eller <br>
-b. Finns det saker som gizmon minns medans avstängd? <br>
-c. ritad med KiCAD (eller annan CAD-programvara), <br>
-d. Fritzing? <br>
+    a. handritad (lättast), eller <br>
+    b. Finns det saker som gizmon minns medans avstängd? <br>
+    c. ritad med KiCAD (eller annan CAD-programvara), <br>
+    d. Fritzing? <br>
+    (länkar till jonas fritzing bilder)
 <br>
 5. programvara som använts för att ta fram produkten <br>
     VisualCode <br>
