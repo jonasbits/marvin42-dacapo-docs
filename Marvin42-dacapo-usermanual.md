@@ -4,7 +4,8 @@ telefonnummer, emailadresser till support, och hur man tar reda på eventuella se
 <br>
     Marvin42 är framtagen för att kunna rita upp planlösningen i utrymmen som är svår åtkommliga genom vanliga metoder. <br>
     Så som krypgrunder, låga vindsutrymmen, trasiga byggnader etc. <br>
-    För support kontakta Alexander B på slack.
+    För support kontakta Alexander B på slack.<br>
+    <br>
 2. INSTALLATION <br>
 a. Hur strömförsörjs den? <br>
     Joysticken strömförsörjs via 2st 3.7V batterier. <br>

@@ -8,20 +8,21 @@ Teknisk dokumentation Den tekniska dokumentationen används för vidareutveckling 
     kapacitet: MCU:er klockfrekvenser och minneskapaciteter i byte <br>
     <br>
 3. ingående komponenter, namn, bibliotek <br>
-    raspberry pi zero.<br>
-    arduino mega.<br>
-    arduino mini pro.<br>
-    blueSMIRF.<br>
-    motorer?.<br>
-    joystick.<br>
-    rotaryencoder.<br>
+    Raspberry pi zero.<br>
+    Arduino mega.<br>
+    Arduino mini pro.<br>
+    BlueSMIRF.<br>
+    TT-motorer.<br>
+    Joystick.<br>
+    Potentiometer.<br>
+    HC-06. <br>
 <br>
 4. karta över hur komponenterna kopplats ihop <br>
     a. handritad (lättast), eller <br>
     b. Finns det saker som gizmon minns medans avstängd? <br>
     c. ritad med KiCAD (eller annan CAD-programvara), <br>
     d. Fritzing? <br>
-    (länkar till jonas fritzing bilder)
+    (länkar till jonas fritzing bilder)<br>
 <br>
 5. programvara som använts för att ta fram produkten <br>
     VisualCode <br>
