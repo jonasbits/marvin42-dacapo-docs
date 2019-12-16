@@ -59,8 +59,8 @@ Nedan följer steg för fabriksåterställning (under förutsättning att användaren h
 <b>Uppstart</b><br>
 Robot: Starta genom att slå på strömbrytaren. En lampa på Arduino Mega samt Raspberry Pi Zero skall lysa. <br>Processen tar ett par sekunder.<br>
 Joystick: Starta genom att slå på strömbrytaren. Joysticken är parad med roboten och skall ansluta och fungera automatiskt.<br>
-<b>Normal användning</b><br>
 <br>
+<b>Normal användning</b><br>
 Roboten styrs med hjälp av medföljande joystick.<br>
 Denna har två analoga styrspakar och ett hastighetsreglage.<br>
 Vänster styrspak: Styr själva robotens körriktning. Spaken har ett dödmansgrepp som stannar när den släpps och <br>måste därför hållas in i körriktningen under hela den tid roboten önskas vara i rörelse.<br>
