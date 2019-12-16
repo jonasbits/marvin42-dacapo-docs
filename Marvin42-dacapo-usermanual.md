@@ -68,16 +68,12 @@ Höger styrspak: Roterar roboten med- eller motsols, beroende på åt vilken riktni
 Hastighetsreglage: Ökar hastigheten genom att vrida reglaget framåt (från användaren). Minskar hastigheten genom<br> att vrida reglaget bakåt (mot användaren).<br>
 <br>
 <b>Avstängning</b><br>
-a. Hur stänger man av den? <br>
-    Man stänger av joysticken med att slå av strömbrytaren som sitter vid batteriet. <br>
-    Man stänger av Marvin42 genom att slå av strömbrytaren som sitter på undersidan vid batteriet. <br>
-b. Finns det saker som roboten minns medans avstängd? <br>
-    Marvin42 samt joysticken minns inte senaste status den hade när den stängdes av, eller senaste positionen den befann sig i.<br>
-    Utan den utgår alltid ifrån noll när den startas. <br>
-c. När man stängt av den, krävs det strömförsörjning för att den inte ska tappa minnet? <br>
-    Det krävs ingen strömförsörjning när allt är avstängt för att inställningarn samt program ska finnas kvar i minnet. <br>
-    Ingen programvara är beroende av strömförsörjning för att inte raderas i från minnet. <br>
-d. Om Marvin42 har nollställts, se sektion för återställning. <br>
+Robot: Stängs av genom att slå av strömbrytaren. Robotbilen sparar inget väsentligt, såsom position eller <br>
+rotation mellan uppstarter. Eventuellt sparas diverse inhemska systemloggar på Raspberry Pi Zero<br>
+Joystick: Stängs av genom att slå av strömbrytaren. Joystick sparar inget väsentligt, såsom senaste riktning/<br>
+hastighet mellan uppstarter, och därför bör hastighetsreglage manuellt återställas till max. innan uppstart.<br>
+Ingen programvara är beroende av strömförsörjning för att inte raderas i från minnet.<br>
+Om någon utrustning har nollställts, se sektion för återställning. <br>
 <br>
 <b>Tilläggsmoduler</b><br>
 Ultrasonic modulen kan monteras på roboten om det behövs data för att kunna kartlägga ett utrymme som bara roboten klarar av att utforska<br>
