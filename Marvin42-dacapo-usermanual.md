@@ -1,51 +1,97 @@
-Användarmanual Ni ska skriva användarmanual. Ni kan börja skriva den någon gång i vecka 50. Den skall skrivas med följande kapitel: <br>
-1. SAMMANFATTNING Vad kan produkten? (Iverkligavärldenfinnsävengarantier,säkerhetsmärkning,följdastandarder här. Det kan även finnas<br>
-telefonnummer, emailadresser till support, och hur man tar reda på eventuella serienummer att ha till hands för felanmälan.) <br>
+<b>Användarmanual</b><br>
+
+<b>* Sammanfattning</b><br>
+<b>* Installation</b><br>
+<b>* Strömförsörjning</b><br>
+<b>* Hårdvara</b><br>
+<b>* Mjukvara</b><br>
+<b>* Fabriksåterställning</b><br>
+<b>* Användning</b><br>
+<b>* Uppstart</b><br>
+<b>* Normal användning</b><br>
+<b>* Avstängning</b><br>
+<b>* Tilläggsmoduler</b><br>
+<b>* Underhåll</b><br>
+<b>* FAQ</b><br>
+<b>* Hur kunde ni orka göra det här?</b><br>
+<b>* Support och Kontakt</b><br>
 <br>
-    Marvin42 är framtagen för att kunna rita upp planlösningen i utrymmen som är svår åtkommliga genom vanliga metoder. <br>
-    Så som krypgrunder, låga vindsutrymmen, trasiga byggnader etc. <br>
-    För support kontakta Alexander B på slack.<br>
-    <br>
-2. INSTALLATION <br>
-a. Hur strömförsörjs den? <br>
-    Joysticken strömförsörjs via 2st 3.7V batterier. <br>
-    Marvin42 strömförsörjs via 2st 3.7V batterier. <br>
-b. Hur sätter man på den? <br>
-    Man sätter på den via att trycka på strömbrytaren på Marvin42 och joysticken. <br>
-c. Hur initierar man den, ställer in den? (om tillämpligt) <br>
-    Man behöver inte initalisera något när man startar produkten utan den är färdig inställd för att fungera från start. <br>
-d. Hur fabriksåterställer man den? (om tillämpligt) (I verkliga världen finns även varningar för specifika felgrepp här.) <br>
-    Det finns ingen knapp eller inställning för att fabriksåterställa prdoukterna. <br>
+<b>Sammanfattning</b><br>
+Marvin42 är en robotbil byggd på mechanum-hjul som ger den förmågan att kunna röra sig fritt åt alla håll utan
+att svänga.<br> Detta gör att den blir lättare att manövrera i trånga och svårtillgängliga områden. Nedan följer ett antal exempel på användningsområden:<br>
+Mappa planlösningar<br>
+Utforska svåråtkomliga platser som t.ex. ventilationstrummor och rörledningar<br>
+Radioaktiva zoner<br>
+Olycksdrabbade områden<br>
+Bombdesarmering<br>
+Spaning, minröjning och andra militära ändamål<br>
+Bevakning<br>
+Nöje<br>
 <br>
-3. PÅSÄTTNINGSPROCEDUR <br>
-a. Hur strömförsörjs den? <br>
-    Joysticken strömförsörjs via 2st 3.7V batterier. <br>
-    Marvin42 strömförsörjs via 4st 3.7V batterier. <br>
-b. Hur sätter man på den? (I verkliga världen finns även varningar för specifika felgrepp här.) <br>
-    Man sätter på den via att trycka på strömbrytaren på Marvin42 och joysticken. <br>
-    Se till att inte vidröra delar av metal som kan vara strömförande vid uppstarten. <br>
+<b>Installation</b><br>
+<b>Strömförsörjning</b><br>
+Robotbilen och joystick drivs med 2st 3.7V 18650-batterier vardera.<br>
 <br>
-4. NORMAL ANVÄNDNING <br>
-a. Hur sätter man på den? <br> 
-    Man sätter på den via att trycka på strömbrytaren på Marvin42 och joysticken. <br>
-    Vänta sedan en minut för att båda joysticken och Marvin42 ska hinna starta upp sina anslutningar till varandra för full funktionalitet. <br>
-b. Vilka visningsmoder/exekveringsmetoder finns, och hur fungerar de? (klocka: normal, alarm, inställning datum, inställning tid, inställning <br>
-alarm, av) (rumsuppmätningssonar:vänta,mätupp,mätningklar,suspended) Frågor per mod: ? Vad är ändamålet med moden? vad visar/gör gizmon i moden? <br>
- ? Om knappar fungerar i moden, vad gör knappen? Byter den mod, ställer den in ett värde, låter en summer, eller styrs en magisk arm ut och <br> 
- nyper katten? ? Om gizmon reagerar på händelser i moden, vad gör gizmon? byter den mod, eller ställer den in ett värde? byter den mod,<br> ställerdeninettvärde,låterensummer,ellersprutarpepparolja ut i ditt ansikte så att du nyser?<br>
-(Iverkligavärldenfinnsävenvarningarförspecifikafelgrepphär.Inormal användning finns även hänvisningar till specialanvändningar som <br>
-fininställningar och övriga användningar.) <br>
+<b>Hårdvara</b><br>
+Hårdvaran är monterad och klar för användning vid köp av produkt.<br>
 <br>
-5. AVSTÄNGNINGSPROCEDUR <br>
+<b>Mjukvara</b><br>
+All mjukvara är installerad och konfigurerad vid köp av produkt.<br>
+<br>
+<b>Fabriksåterställning</b><br>
+Nedan följer steg för fabriksåterställning (under förutsättning att användaren har relevanta tekniska förkunskaper)<br>
+* Ladda ned och flasha minneskortet (microSD) med Raspbian Buster Lite.<br>
+* Sätt in minneskortet i Raspberry Pi Zero och starta  roboten.<br>
+* Använd SSH för att logga in med användaren pi och lösenord raspberry.<br>
+* Anslut till valfritt WiFi med internet-åtkomst.<br>
+* Uppdatera systemet med sudo apt update och sedan sudo apt upgrade. <br>
+* Detta kan ta en längre tid, kontrollera batteristyrka eller använd den medföljande USB-kabel.<br>
+* Installera de nödvändigaste programmen sudo apt install git libserialport.<br>
+* Klona följande repon: <br>
+* git clone https://github.com/albrdev/marvin42-dacapo-networking.git <br>
+* git clone https://github.com/albrdev/marvin42-dacapo-configs.git<br>
+* Gå till ena repot: cd marvin42-dacapo-networking<br>
+* Bygg programmet genom att köra: make release<br>
+* Gå till andra repot: cd marvin42-dacapo-configs<br>
+* Kör make<br>
+<br>
+<b>Användning</b><br>
+<b>Uppstart</b><br>
+Robot: Starta genom att slå på strömbrytaren. En lampa på Arduino Mega samt Raspberry Pi Zero skall lysa. <br>Processen tar ett par sekunder.<br>
+Joystick: Starta genom att slå på strömbrytaren. Joysticken är parad med roboten och skall ansluta och fungera automatiskt.<br>
+<b>Normal användning</b><br>
+Roboten styrs med hjälp av medföljande joystick.<br>
+Denna har två analoga styrspakar och ett hastighetsreglage.<br>
+Vänster styrspak: Styr själva robotens körriktning. Spaken har ett dödmansgrepp som stannar när den släpps och <br>måste därför hållas in i körriktningen under hela den tid roboten önskas vara i rörelse.<br>
+Höger styrspak: Roterar roboten med- eller motsols, beroende på åt vilken riktning spaken har på X-axeln. <br>Y-axeln ignoreras helt.<br>
+Hastighetsreglage: Ökar hastigheten genom att vrida reglaget framåt (från användaren). Minskar hastigheten genom<br> att vrida reglaget bakåt (mot användaren).<br>
+<br>
+<b>Avstängning</b><br>
 a. Hur stänger man av den? <br>
     Man stänger av joysticken med att slå av strömbrytaren som sitter vid batteriet. <br>
     Man stänger av Marvin42 genom att slå av strömbrytaren som sitter på undersidan vid batteriet. <br>
-b. Finns det saker som gizmon minns medans avstängd? <br>
+b. Finns det saker som roboten minns medans avstängd? <br>
     Marvin42 samt joysticken minns inte senaste status den hade när den stängdes av, eller senaste positionen den befann sig i.<br>
-    Utan den utgår alltid ifrån punk noll när den startas. <br>
+    Utan den utgår alltid ifrån noll när den startas. <br>
 c. När man stängt av den, krävs det strömförsörjning för att den inte ska tappa minnet? <br>
     Det krävs ingen strömförsörjning när allt är avstängt för att inställningarn samt program ska finnas kvar i minnet. <br>
-    Ingen programvara är beroende av strömförsörjning för att inte raderas ifrån minnet. <br>
-d. Om gizmon nollställts, hänvisning till sektion för återinställning (typiskt installationsproceduren). <br>
-
-(I verkliga världen finns även varningar för specifika felgrepp här.) <br>
+    Ingen programvara är beroende av strömförsörjning för att inte raderas i från minnet. <br>
+d. Om Marvin42 har nollställts, se sektion för återställning. <br>
+<br>
+<b>Tilläggsmoduler</b><br>
+Ultrasonic modulen kan monteras på roboten om det behövs data för att kunna kartlägga ett utrymme som bara roboten klarar av att utforska<br>
+<br>
+<b>Underhåll</b><br>
+Byte av TT-motorerna kan behöva göras eftersom vi kör dem ?out of spec?, alltså lite under 8 volt, medans spec säger 3-6 volt.<br>
+<br>
+<b>FAQ</b><br>
+<b>Hur kunde ni orka göra det här?</b><br>
+Vi sparade inget för att orka simma tillbaka!<br>
+<br>
+<b>Varför ger ni inte upp?</b><br>
+Vi ger aldrig upp, vi slutar inte försöka!<br>
+<br>
+<b>Support och Kontakt</b><br>
+Hårdvara: Jonas Ö<br>
+Mjukvara: Alexander B<br>
+Dokumentation: Sebastian C<br>

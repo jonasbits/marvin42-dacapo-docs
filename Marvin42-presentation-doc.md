@@ -18,3 +18,5 @@ Den skriftliga redovisningen består av: <br>
 6. ev. en video där ni demonstrerar gizmon, samt ev. förklarande speaker eller förklarande text <br>
 Gruppmedlemmarna ställer alla upp på redovisningen,att ute bli utan att meddela de andra gruppmedlemmarna medför underkänt. <br>
 Sjukdom och andra laga förfall meddelas de andra gruppmedlemmarna i förväg.<br>
+
+<a href="https://docs.google.com/presentation/d/16O3mRxCAuz_PMjLRraPCC6nQXv_Omt90Ryw3tZJaDCs/edit?usp=sharing">Presentation</a>

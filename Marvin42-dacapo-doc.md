@@ -114,6 +114,4 @@ More Links<br>
  http://www.wavsource.com/snds_2018-06-03_5106726768923853/movies/lost_in_space/los t_in_space_robot_online.wav <br>
  https://unix.stackexchange.com/questions/109804/crontabs-reboot-only-works-for-root <br>
  https://www.instructables.com/id/Arduino-Battery-Voltage-Indicator/ <br>
- 
- # marvin42-dacapo-docs<br>
- Repo of docs regarding the marvin42-dacapo project<br>
+
