@@ -11,8 +11,8 @@
     Produkterna försörjs med ström via 2 st 3.7V batterier i seriekoppling.<br>
 <br>
 <b>Tekniska Kapabiliteter: </b><br>
-    <b>Nätverk: blueSMIRF Mate Silver</b><br> 
-    * FCC Approved Class 2 Bluetooth**® **Radio Modem!<br>
+   <b>Nätverk: blueSMIRF Mate Silver</b><br> 
+    * FCC Approved Class 2 Bluetooth Radio Modem<br>
     * Low power consumption : 25mA avg<br>
     * Hardy frequency hopping scheme - operates in harsh RF environments like WiFi, 802.11g, and Zigbee<br>
     * Encrypted connection<br>
@@ -22,23 +22,23 @@
     * Operating Temperature: -40 ~ +70C<br>
     * Built-in antenna <br>
     <br>
-    <b>Kapacitet: MicrocontrollerATmega2560</b><br>
-    * Operating Voltage5V<br>
-    * Input Voltage (recommended)7-12V<br>
-    * Input Voltage (limits)6-20V<br>
-    * Digital I/O Pins54 (of which 14 provide PWM output)<br>
-    * Analog Input Pins16<br>
-    * DC Current per I/O Pin40 mA<br>
-    * DC Current for 3.3V Pin50 mA<br>
-    * Flash Memory256 KB of which 8 KB used by bootloader<br>
+   <b>Kapacitet: MicrocontrollerATmega2560</b><br>
+    * Operating Voltage 5V<br>
+    * Input Voltage (recommended) 7-12V<br>
+    * Input Voltage (limits) 6-20V<br>
+    * Digital I/O Pins 54 (of which 14 provide PWM output)<br>
+    * Analog Input Pins 16<br>
+    * DC Current per I/O Pin 40 mA<br>
+    * DC Current for 3.3V Pin 50 mA<br>
+    * Flash Memory 256 KB of which 8 KB used by bootloader<br>
     * SRAM8 KB<br>
     * EEPROM4 KB<br>
     * Clock Speed16 MHz<br>
     <br>
-    <b>Kapacitet: Pi Zero W</b><br>
+   <b>Kapacitet: Pi Zero W</b><br>
     * 1GHz, single-core CPU<br>
     * 512MB RAM<br>
-    * Mini HDMI and USB On-The-Go ports<br>
+    * Mini HDMI and Micro USB On-The-Go ports<br>
     * Micro USB power<br>
     * HAT-compatible 40-pin header<br>
     * Composite video and reset headers<br>
